@@ -240,14 +240,6 @@ b {
       padding: 2.5%;
       padding-right: 5%;
     }
-    .skills-image, .awards-image{
-      padding: 45px;
-    }
-    .awards-image{
-      size: 900px;
-      background-position-y: 100%;
-      background-position-x: 45%;
-    }
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the navigation links stack on top of each other instead of next to each other */
