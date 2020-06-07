@@ -26,8 +26,17 @@ a:active {
 }
 
 .header {
-    padding: 5px;
-    position: sticky;
+    padding: 3px;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .content {
+    padding-top: 102px;
   }
 
 .hero-image {
@@ -72,8 +81,8 @@ a:active {
 }
 
 .skills-ul a:link, a:visited {
-  background-color: rgb(255, 237, 74);
-  color: white;
+  background-color: rgb(255, 217, 0);
+  color: #293557;
   padding: 1px 1px;
   margin-bottom: 0.5em;
   text-align: center;
@@ -140,6 +149,12 @@ a:active {
 /* The breadcrumbs container */
 .breadcrumbs {
     overflow: hidden;
+    border-style: solid;
+    border-color: #7c7c7c;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 2em;
   }
   
   /* Breadcrumbs */
@@ -240,6 +255,7 @@ b {
       padding: 2.5%;
       padding-right: 5%;
     }
+
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the navigation links stack on top of each other instead of next to each other */
