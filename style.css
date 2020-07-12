@@ -294,12 +294,19 @@ b {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
+	height: auto !important;
   margin: auto;
+}
+
+.thumbnail-container {
+  position: fixed;
+  clear: both;
+  bottom: 0;
 }
 
 /* Hide the slides by default */
 .mySlides {
-  margin-top: 4em;
+  margin-top: 1em;
   display: none;
 }
 
@@ -309,7 +316,7 @@ b {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: 5%;
+  margin-top: 10%;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -328,17 +335,6 @@ b {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-  margin-top: 95%;
 }
 
 /* The dots/bullets/indicators */
