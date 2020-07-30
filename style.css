@@ -403,28 +403,28 @@ b {
     100% { right: 0; }
 }
 
-.collapsible {
-  background-color: #1a227d;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
+/* Style the accordion in published works */
+.accordion {
   width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
-.active, .collapsible:hover {
-  background-color: #4083ff;
+.snippet {
+  display: block;
+  text-decoration: none;
 }
 
-.collapsiblecontent {
-  padding: 0 18px;
-  max-height: 0;
+.expanded {
+  padding: 0;
+  height: 0;
   overflow: hidden;
+}
+
+.expanded:target {
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  height: auto;
 }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -446,6 +446,7 @@ b {
 
   @media screen and (min-width: 1025px) {
     body {
+      width: 100%;
       max-width: 1025px;
     }
   }
