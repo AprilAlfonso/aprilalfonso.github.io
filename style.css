@@ -17,7 +17,7 @@ body {
   background-color: rgb(255, 255, 255);
   margin-top: 1%;
   margin-right: 15%;
-  margin-left: 15%;
+  margin-left: 12%;
   margin-bottom: 3em;
   text-align: left;
   }
@@ -441,6 +441,7 @@ b {
   @media screen and (max-width: 800px) {
     .breadcrumbs {
       float: none;
+      max-width: 800px;
     }
   }
 
