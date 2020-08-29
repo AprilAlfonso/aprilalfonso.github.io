@@ -1,11 +1,11 @@
 html {
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: "Helvetica", sans-serif;
     color:#454545;
   }
 
 h1 {
-  font-family: "Helvetica", "IBM Plex Sans""Arial", sans-serif;
-  font-size: 8vw;
+  font-family: "Helvetica", sans-serif;
+  font-size: 8.5vw;
   padding-left: 2.5%;
 }
 
