@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1.0, user-scalable=no">
     <title>April Alfonso | Home</title>
     <meta name="description" content="Hi! I am April Alfonso, a content producer with nearly 4 years in the digital marketing industry.">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     <script type="text/javascript" src="script.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
@@ -15,113 +15,86 @@
 
 <body>
 
-    <div id="home" class="header"><a href="index.html">
-        <h1> APRIL ALFONSO </h1></a>
+    <!-- collapsible menu -->
+    <div id="side-bar-menu">
+        <div>
+            <input type="checkbox" id="toggle-menu" onclick="showSideBarMenu()">
+            <label for="toggle-menu"></label>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html"><p id="profilepic" style="size: 33%;"></p></a></li>
+                <li><a href="resume.html">View Resume</a></li>
+                <li>apriltherese.alfonso@gmail.com</li>
+                <li>(+63)916 103 9896</li>
+                <li class="social">Social:
+                    <a href="https://www.linkedin.com/in/april-alfonso/"><i class="fab fa-linkedin" style="font-size: 2em; padding-left: 0.5em;"></i></a>
+                    <a href="https://aprilalfonso.wordpress.com/blog/"><i class="fab fa-wordpress" style="font-size: 2em; padding-left: 0.5em;"></i></a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <!--<div id="myNavBar">
-        <ul class="breadcrumbs">
-            <li><a href="visual-productions.html">Portfolio</a></li>
-             <li><a href="published-works.html">Writing Portfolio </a></li>
-            <li><a href="data-campaigns.html">Data Portfolio </a>
-            <li><a href="mailto:apriltherese.alfonso@gmail.com" style="float:right">Contact</a></li>
-        </ul>
-    </div></li> -->
+    
+    <div id="home" class="header">
+        <a href="index.html"><h1> APRIL ALFONSO </h1></a>
+    </div>
 
-    <div class="row content">
+    <div style="float: right;">
+        <a href="about.html"><p id="icon" style="size: 33%; float:right"></p></a>
+    </div>
+
+        <div>  
+            <h2>Projects</h2>
+            <!-- Thumbnail images -->
+            <div class="thumbnail">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="project/agbi.html"><img class="demo cursor" src="Images/Video Ad.PNG" style="width:100%" alt="Anderson Group BPO, Inc."></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="project/flexr.html"><img class="demo cursor" src="https://aprilalfonso.files.wordpress.com/2018/07/people-who-work-with-people.png" style="width:100%" alt="Flexr"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="project/wwf.html"><img class="demo cursor" src="https://aprilalfonso.files.wordpress.com/2019/09/wwf-graphic-4.png" style="width:100%" alt="World Wildlife Fund"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="project/caven.PNG"><img class="demo cursor" src="Images/Movie Posters.PNG" style="width:100%" alt="Caven Studios, Inc."></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="project/the-black-hole.html"><img class="demo cursor" src="Images/Stop Motion Animation.PNG" style="width:100%" alt="The Black Hole"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="project/bruce.html"><img class="demo cursor" src="Images/Bruce.PNG" style="width:100%" alt="Bruce"></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <a href="project/true-life.html"><img class="demo cursor" src="Images/Motion Graphics.PNG" style="width:100%" alt="True Life Retreat"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="project/bayanirun.html"><img class="demo cursor" src="Images/2D Animation.PNG" style="width:100%" alt="Bayanirun"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="project/ivolunteer.html"><img class="demo cursor" src="Images/Graphic Design.PNG" style="width:100%" alt="iVolunteer Philippines"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="project/tanaw.html"><img class="demo cursor" src="Images/Tanaw.png" style="width:100%" alt="Project Tanaw"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="project/illustrations.html"><img class="demo cursor" src="Images/Illustrations.PNG" style="width:100%" alt="Illustrations"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="project/photography.html"><img class="demo cursor" src="Images/Photography.PNG" style="width:100%" alt="Photograpy"></a>
+                    </div>  
+                </div>
+            </div>
+    </div>
         
-        <div class="column main">   
-            <div class="card">
-                <h2>About Me</h2>
-                <p>I am April Alfonso, a content producer with nearly four years experience in Digital Marketing. I have a Bachelor of Arts in Animation from De La Salle-College of St. Benilde. </p>
-                <p>I previously worked as a Content Marketing Specialist for <a href="project/agbi.html">Anderson Group BPO, Inc.</a> for over three (3) years. While there, I was able to manage projects that range from our monthly <a href="https://aprilalfonso.files.wordpress.com/2019/04/sales-mailer-proposal.png">newsletters</a>, <a href="https://docs.google.com/presentation/d/1z-V_RysaeFgH8ts3EvcqWvHqBR5Cn8bxMxnJQtd7yfg/edit?usp=sharing">social media ad campaigns</a>, <a href="https://docs.google.com/document/d/1RynGUxA2FEIGWAGvOcY0i2Wan3x-4e_TOeSCgOkwiAc/edit?usp=sharing">whitepapers</a>, <a href="https://docs.google.com/document/d/1z05hwwcPEEgnK69ufLc6jA_36IvlSxcGoJI7VB7yvRc/edit?usp=sharing">scripts</a>, <a href="https://drive.google.com/file/d/1FGaYbnKIysjqaJdtSqtAVJEk2V6rSqiQ/view?usp=sharing">storyboards</a>, <a href="https://docs.google.com/spreadsheets/d/1FHnyTaijECP87uay4ALlwpjfxMedwTjCAEGaIQcYpH0/edit?usp=sharing">data research</a>, <a href="https://andersonbpoinc.com/author/agph_april/">blogs</a>, <a href="https://doc-0c-3k-docs.googleusercontent.com/docs/securesc/0h822f08v1l5fk76jgef5bin6h0jopm7/5s2d9jnlj5gkg0ce8ri9mceu4dkefhhr/1598717475000/17380244993194840280/04273569807334904118/0B37ar3dIOhJ2bTNQZV80ZzcxQTRrLW0zamhaRkpXVVlZM1pZ?e=view&authuser=0&nonce=65cvl62fkq9dq&user=04273569807334904118&hash=kavbdn6oj58ecvicfvm1vr3q3i4d1a87">infographics</a>, <a href="https://www.youtube.com/watch?v=XTi0x3klCBA">Youtube channels</a> and the like. I mostly handled our <a href="https://www.facebook.com/andersonphcareers">recruitment social pages</a> and <a href="project/flexr.html">client accounts</a> on LinkedIn, Instagram, Facebook, and Twitter and provided support to our <a href="https://www.seatleasemanila.com/">website</a> as well.</p> 
-                <p>When our Senior Content manager changed jobs towards the end of 2018, I also took over our overall <a href="https://docs.google.com/document/d/1pwTl_rkZBROkeBdj_1eoOxhtIrdg3jLzR4gJd35qItg/edit?usp=sharing">content marketing strategy</a> and <a href="https://docs.google.com/presentation/d/1ouQcVaT2wvQYFwENInNIEz4VnBQKvJ9nVojQdEQlp3w/edit?usp=sharing">reporting</a>, wherein I re-distributed our task loads, fixed targets and trackers, and continued organizing our workflows. I worked mostly with Google Docs, Sheets, Photoshop, HootSuite, Mailchimp, Facebook Ads Manager, Google Analytics, and Youtube Studio. The latter task included collaboration with the rest of the marketing team seniors. Our department was unfortunately retrenched due to the pandemic last July 2020.</p>
-                <p>Before that, I was hired as a Graphic Designer at a non-profit, World Vision International. I was later promoted as a Project Assistant on the project that lasted nine months. As a Graphic Designer, I mostly worked with InDesign and Photoshop but as a Project Assistant I worked in Excel.</p>
-                <p>I took up a freelance project as a <a href="project/caven.PNG">lay out artist</a> for a 3-month project at Caven Studios just after graduation. I did my OJT at Toon Bro Studios where I worked on short animations such as <a href="project/bruce.html">the Bruce Project</a>. My thesis was a <a href="project/the-black-hole.html">stop motion film</a> which I worked on from start to end.</p>
-                <p>In my spare time, I work on projects with volunteer groups. I am a regular volunteer at CCF where I mostly serve as a <a href="project/true-life.html">video editor</a>. In 2018, I worked with iVolunteer Philippines creating <a href="project/ivolunteer.html">weekly social media posters</a> and producing marketing materials for <a href="project/bayanirun.html">Bayanirun 2018</a>. I also volunteered as a graphic designer for Project Tanaw's <a href="project/tanaw.html">COVID-19 Response</a>. Most of my work is done through Adobe Photoshop, Illustrator, After Effects, Adobe Audition, and Premiere Pro. I am currently learning to code basic HTML, CSS, JavaScript, and Python using Visual Studio and GitHub to further expand my skills in data storytelling.</p>
-            </div>
-        </div>
-
-        <div class="column side">
-            <div class="card">
-                <h3><b>About</b></h3>
-                <a href="index.html"><p id="profilepic" style="size: 33%;"></p></a>
-                <ul style="font-size: small; line-height: 0.5em;">
-                    <li><p><b>Portfolio:</b></p> <a href="visual-productions.html"><p>aprilalfonso.github.io/portfolio</p></a></li>
-                    <li><p><b>Resume:</b></p> <a href="resume.html"><p>aprilalfonso.github.io/resume</p></a></li>
-                    <li><p><b>Work Experience:</b></p><p>4 years in Content Marketing</p></li>
-                    <li><p><b>Educational Experience:</b></p><p>AB-Animation Graduate</p></li>
-                    <li><p><b>Language:</b></p> <p>Filipino, English</p> </li>
-                    <li><p><b>Home:</b></p> <p>Pasig City, PH 1609</p></li>
-                    <li><p><b>Contact:</b></p> <p>(+63)916 103 9896</p></li>
-                    <li><p><b>Email:</b></p> <p>apriltherese.alfonso@gmail.com</p></li>
-                    <li class="social"><p><b>Social:</b></p> <p>
-                        <a href="https://www.linkedin.com/in/april-alfonso/"><i class="fab fa-linkedin" style="font-size: 2em; padding-left: 0.5em;"></i></a>
-                        <a href="https://aprilalfonso.wordpress.com/blog/"><i class="fab fa-wordpress" style="font-size: 2em; padding-left: 0.5em;"></i></a></p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="row content"> 
-
-        <div class="column main">  
-            <div class="card">
-                <h2>Projects</h2>
-            </div>
-        </div>
-    </div>
-        <!-- Thumbnail images -->
-        <div class="thumbnail">
-            <div class="row">
-                <div class="col-6">
-                    <a href="project/agbi.html"><img class="demo cursor" src="Images/Video Ad.PNG" style="width:100%" alt="Anderson Group BPO, Inc."></a>
-                </div>
-                <div class="col-6">
-                    <a href="project/flexr.html"><img class="demo cursor" src="https://aprilalfonso.files.wordpress.com/2018/07/people-who-work-with-people.png" style="width:100%" alt="Flexr"></a>
-                </div>
-                <div class="col-6">
-                    <a href="project/wwf.html"><img class="demo cursor" src="https://aprilalfonso.files.wordpress.com/2019/09/wwf-graphic-4.png" style="width:100%" alt="World Wildlife Fund"></a>
-                </div>
-                <div class="col-6">
-                    <a href="project/caven.PNG"><img class="demo cursor" src="Images/Movie Posters.PNG" style="width:100%" alt="Caven Studios, Inc."></a>
-                </div>
-                <div class="col-6">
-                    <a href="project/ivolunteer.html"><img class="demo cursor" src="Images/Graphic Design.PNG" style="width:100%" alt="iVolunteer Philippines"></a>
-                </div>
-                <div class="col-6">
-                    <a href="project/tanaw.html"><img class="demo cursor" src="Images/Tanaw.png" style="width:100%" alt="Project Tanaw"></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-6">
-                    <a href="project/true-life.html"><img class="demo cursor" src="Images/Motion Graphics.PNG" style="width:100%" alt="True Life Retreat"></a>
-                </div>
-                <div class="col-6">
-                    <a href="project/bayanirun.html"><img class="demo cursor" src="Images/2D Animation.PNG" style="width:100%" alt="Bayanirun"></a>
-                </div>
-                <div class="col-6">
-                    <a href="project/the-black-hole.html"><img class="demo cursor" src="Images/Stop Motion Animation.PNG" style="width:100%" alt="The Black Hole"></a>
-                </div>
-                <div class="col-6">
-                    <a href="project/bruce.html"><img class="demo cursor" src="Images/Bruce.PNG" style="width:100%" alt="Bruce"></a>
-                </div>
-                <div class="col-6">
-                    <a href="project/illustrations.html"><img class="demo cursor" src="Images/Illustrations.PNG" style="width:100%" alt="Illustrations"></a>
-                </div>
-                <div class="col-6">
-                    <a href="project/photography.html"><img class="demo cursor" src="Images/Photography.PNG" style="width:100%" alt="Photograpy"></a>
-                </div>  
-            </div>
-        </div>
     <br>
 
-    <div class="row content">   
-        <div class="card">
-            <div class="column main"> 
-                <h2>Writing</h2>
-            </div>
+    <div class="row">   
+            <h2>Writing</h2>
                 <div class="column main"> 
                     <a href="https://andersonbpoinc.com/blogs/work-from-home-tips-covid-19/"><p>Work From Home This Month? Here’s How to Keep Yourself Motivated</p></a>
                 </div>
@@ -260,8 +233,7 @@
                 </div>
                 <div class="column side hide" style="text-align: right;"> 
                     <p>2018.04.19</p>
-                </div>
-            </div>        
+                </div>    
     </div>
 
 </body>

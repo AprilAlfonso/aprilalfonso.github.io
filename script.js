@@ -1,5 +1,9 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+// Show Side Bar Menu Nav
+function showSideBarMenu() {
+
+  document.getElementById('side-bar-menu').classList.toggle('active');
+
+}
 
 // Get the next button
  var next = document.getElementsByClassName("next");
