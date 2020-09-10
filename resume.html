@@ -14,11 +14,51 @@
 </head>
 
 <body>
+    
+    <svg id="fader"></svg>
+    <script>
+        fadeInPage();
+    </script>
 
-    <div id="home" class="header"><a href="index.html">
-        <h1> APRIL ALFONSO </h1></a>
+    <!-- collapsible menu -->
+    <div id="side-bar-menu">
+        <div>
+            <input type="checkbox" id="toggle-menu" onclick="showSideBarMenu()">
+            <label for="toggle-menu"></label>
+        </div>
+        <div class="side-bar-top">
+            <ul >
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+        <div class="side-bar-bottom">
+            <ul>
+                <li style="font-weight: bold;">Contact:</li>
+                <li>apriltherese.alfonso@gmail.com</li>
+                <li>(+63)916 103 9896</li>
+                <li class="social" style="font-weight: bold;">Social:</li>
+                <li>
+                    <a href="https://www.linkedin.com/in/april-alfonso/"><i class="fab fa-linkedin" style="font-size: 2em; padding-left: 0.5em;"></i></a>
+                    <a href="https://aprilalfonso.wordpress.com/blog/"><i class="fab fa-wordpress" style="font-size: 2em; padding-left: 0.5em;"></i></a>
+                </li>
+            </ul>
+        </div>
     </div>
+    
+    <div id="home" class="header">
+        <a href="index.html"><h1> APRIL ALFONSO </h1></a>
+    </div>
+
+    <div style="float: right;">
+        <a href="about.html"><p id="icon" style="size: 33%; float:right"></p></a>
+    </div>
+    
     <div class="row content">
+        <div class="h1">
+            <h1>April Therese Yoingco Alfonso</h1>
+        </div>
         
         <div class="column main">
             <div class="card">
