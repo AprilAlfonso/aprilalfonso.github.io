@@ -707,7 +707,7 @@ b {
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-    .column.main, .column.side, .column, .col-2, .col-4, .col-6 {   
+    .column.main, .column.side, .column, .col-2, .col-4 {   
       width: 100%;
       padding: 2.5%;
       padding-right: 5%;
