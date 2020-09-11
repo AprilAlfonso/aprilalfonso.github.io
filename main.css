@@ -651,12 +651,12 @@ b {
 }
 
 /* Six columns side by side */
-.col-6 {
+.col-6-main {
   float: left;
   width: 16.66%;
 }
 
-.col-6-main {
+.col-6 {
   float: left;
   width: 16.66%;
 }
