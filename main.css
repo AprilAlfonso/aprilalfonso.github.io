@@ -584,10 +584,11 @@ b {
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   width: auto;
-  margin-top: 50%;
   padding: 16px;
   color: white;
   background-color: rgba(0,0,0,0.8);
