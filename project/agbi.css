@@ -184,8 +184,8 @@
     padding: 15px; 
     width: 15px;
     height: 15px;
-    top: 0.5%;
-    right: 2.5%;
+    top: 1.5%;
+    right: 2em;
   }
   
   /* Close Icon */
@@ -259,7 +259,9 @@
   
   body {
     background-color: rgb(255, 255, 255);
-    text-align: left;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
     }
   
   button {
@@ -290,6 +292,7 @@
     padding-bottom:56.25%;
     position:relative;
     height:0;
+    width: 100vw;
   }
   .video-responsive iframe{
     left:0;
@@ -312,12 +315,6 @@
     height: 100%;
     position:absolute;
   }
-    
-    /* Links - change color on hover */
-    .breadcrumbs a:hover {
-      background-color: #4083ff;
-      color: white;
-    }
   
     /* Social */
     .social a {
@@ -338,16 +335,40 @@
   b {
       color: #2E3092;
   }
-  
-  #profilepic {
-      border-radius: 150px;
-      background: url(April\ Alfonso.jpg);
-      background-size: 105%;
-      background-position: center;
-      padding: 25px; 
-      width: 50px;
-      height: 50px;
-    }
+
+  #agbi-logo {
+    background: url(/Images/image005.png);
+    background-size: 100%;
+    display: block;
+    padding: 15px; 
+    width: 15px;
+    height: 15px;
+  }
+  section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section .background {
+    position: float;
+
+  }
+
+  section .project-description {
+    max-width: 80%;
+    background: white;
+  }
+
+  section .project-description h2{
+    max-width: 80%;
+    background: white;
+  }
+
+
   
   .card {
       padding-bottom: 1rem;

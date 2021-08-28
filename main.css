@@ -195,7 +195,7 @@ label {
   background-color:#1a227d;
   position: absolute;
   top: 2.5%;
-  right: 2.5%;
+  right: 2.5em;
   cursor: pointer;
   transform: rotatez(45deg);
   transform-origin: center;
